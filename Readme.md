@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Анна Гусарова](https://up.htmlacademy.ru/htmlcss/36/user/341759).
-* Наставник: `Неизвестно`.
+* Наставник: [Артур Трифонов] (https://up.htmlacademy.ru/profession/frontender/16/htmlcss/36/user/20140).
 
 ---
 
