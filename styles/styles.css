@@ -42,6 +42,10 @@ body {
   text-decoration: none;
 }
 
+.navigation-telephone {
+  font-weight: 700;
+}
+
 .main-index {
   color: #2D3440;
 }
@@ -60,4 +64,39 @@ text-align: left;
   font-family: 'inter' sans-serif;
   font-size: 18px;
   line-height: 24px;
+}
+
+.gifts {
+  color: #2D3440;
+}
+
+.gifts-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.gifts-item {
+  text-align: left;
+  background-color: #FF7799;
+}
+
+.gifts-item-raspberry {
+  background-image: url("../images/raspberry.png");
+  background-size: 219px 268px;
+  background-repeat: no-repeat;
+}
+
+.gifts-item-marshmallow {
+  background-image: url("../images/marshmallow.png");
+  background-size: 219px 268px;
+  background-repeat: no-repeat;
+}
+
+.gifts-item-title {
+  font-family: 'inter' sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
 }
