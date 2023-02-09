@@ -26,4 +26,38 @@ body {
   font-family: 'inter', sans-serif;
   font-size: 16px;
   line-height: 22px;
+  color: #565C66;
+  background-color: #FEAFC3;
+}
+
+.page-header {
+  color: #2D3440;
+}
+
+.navigation-link {
+  font-family: 'inter' sans-serif;
+  line-height: 20px;
+  color: #2D3440;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-index {
+  color: #2D3440;
+}
+
+.main-gallery {
+text-align: left;
+}
+
+.main-gallery-title {
+  font-family: 'inter' sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.main-text {
+  font-family: 'inter' sans-serif;
+  font-size: 18px;
+  line-height: 24px;
 }
