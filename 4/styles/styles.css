@@ -1,0 +1,328 @@
+@font-face {
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/inter-900.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565C66;
+  background-color: #FEAFC3;
+}
+
+.page-header {
+  color: #2D3440;
+}
+
+.navigation-link {
+  font-family: 'inter' sans-serif;
+  line-height: 20px;
+  color: #2D3440;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-telephone {
+  font-weight: 700;
+}
+
+.main-index {
+  color: #2D3440;
+}
+
+.main-gallery {
+text-align: left;
+}
+
+.main-gallery-title {
+  font-family: 'inter' sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.main-text {
+  font-family: 'inter' sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.gifts {
+  color: #2D3440;
+}
+
+.gifts-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.gifts-item {
+  text-align: left;
+  background-color: #FF7799;
+}
+
+.gifts-item-raspberry {
+  background-image: url("../images/raspberry.png");
+  background-size: 219px 268px;
+  background-repeat: no-repeat;
+}
+
+.gifts-item-marshmallow {
+  background-image: url("../images/marshmallow.png");
+  background-size: 219px 268px;
+  background-repeat: no-repeat;
+}
+
+.gifts-item-title {
+  font-family: 'inter' sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+.popular-product {
+  text-align: center;
+}
+
+.popular-product-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  color: #2D3440;
+  font-family: 'inter' sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.basic-text {
+  color: #565C66;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.product-card-price {
+  font-family: 'inter' sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+}
+
+.benefits{
+  background-image: url("../images/benefits.jpg");
+  background-size: 1170px 480px;
+  background-repeat: no-repeat;
+}
+.advantages {
+  background-color: #ffffff;
+}
+
+.advantages-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.advantages-item-ice-cream {
+  background-image: url("../images/ice_cream.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.advantages-item-sheet {
+  background-image: url("../images/sheet.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.advantages-item-cow {
+  background-image: url("../images/cow.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.advantages-item-thermometer {
+  background-image: url("../images/thermometer.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.advertising {
+  background-image: url("../images/blog.jpg");
+  background-size: 570px 224px;
+  background-repeat: no-repeat;
+}
+
+.advertising-title {
+  color: #2D3440;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.email {
+  background-image: url("../images/email.png");
+  background-size: 570px 224px;
+  background-repeat: no-repeat;
+}
+
+.newsletter {
+  background-color: #ffffff;
+}
+
+.delivery {
+  background-image: url("../images/delivery.jpg");
+  background-size: 1170px 534px;
+  background-repeat: no-repeat;
+}
+
+.delivery-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: left;
+}
+
+.delivery-all-form {
+  background-color: #FCFCFC;
+}
+
+.form-label {
+  color: #2D3440;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.contacts-ice-cream {
+  background-image: url("../images/contacts.jpg");
+  background-size: 1170px 534px;
+  background-repeat: no-repeat;
+}
+
+.contacts {
+  background-color: #FCFCFC;
+  text-align: left;
+}
+
+.contacts-address {
+  color: #2D3440;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.contacts-phone {
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.contacts-phone-time {
+  color: #565C66;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.navigation-list {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.navigation-link-heart {
+  background-image: url("../images/heart.svg");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  font-weight: 700;
+}
+
+.about-text {
+  color: #2D3440;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Стили каталога */
+
+.inner-header {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.breadcrumbs-link {
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.breadcrumbs-link-active {
+  text-decoration: underline;
+}
+
+.inner-header-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+.catalog-filter-title {
+  font-family: 'inter' sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.select-control {
+  color: #2D3440;
+  font-family: 'inter' sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.catalog-filter-list {
+  color: #2D3440;
+  font-family: 'inter' sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.catalog-product {
+  text-align: center;
+}
+
+.pagination-item {
+  color: #2D3440;
+  font-family: 'inter' sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+}
