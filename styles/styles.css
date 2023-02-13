@@ -100,3 +100,69 @@ text-align: left;
   line-height: 30px;
   text-align: center;
 }
+.popular-product {
+  text-align: center;
+}
+
+.popular-product-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.product-card-title {
+  font-family: 'inter' sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.basic-text {
+  color: #565C66;
+}
+
+.product-card-price {
+  font-family: 'inter' sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+}
+
+.benefits{
+  background-image: url("../images/benefits.jpg");
+  background-size: 1170px 480px;
+  background-repeat: no-repeat;
+}
+.advantages {
+  background-color: #ffffff;
+}
+
+.advantages-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.advantages-item-ice-cream {
+  background-image: url("../images/ice_cream.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.advantages-item-sheet {
+  background-image: url("../images/sheet.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.advantages-item-cow {
+  background-image: url("../images/cow.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.advantages-item-thermometer {
+  background-image: url("../images/thermometer.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
