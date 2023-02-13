@@ -110,7 +110,12 @@ text-align: left;
   line-height: 46px;
 }
 
+.product-card-link {
+  text-decoration: none;
+}
+
 .product-card-title {
+  color: #2D3440;
   font-family: 'inter' sans-serif;
   font-size: 20px;
   line-height: 24px;
@@ -264,4 +269,60 @@ text-align: left;
   color: #2D3440;
   font-size: 12px;
   line-height: 16px;
+}
+
+/* Стили каталога */
+
+.inner-header {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.breadcrumbs-link {
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.breadcrumbs-link-active {
+  text-decoration: underline;
+}
+
+.inner-header-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+.catalog-filter-title {
+  font-family: 'inter' sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.select-control {
+  color: #2D3440;
+  font-family: 'inter' sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.catalog-filter-list {
+  color: #2D3440;
+  font-family: 'inter' sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.catalog-product {
+  text-align: center;
+}
+
+.pagination-item {
+  color: #2D3440;
+  font-family: 'inter' sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
 }
