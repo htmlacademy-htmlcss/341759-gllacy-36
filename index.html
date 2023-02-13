@@ -220,8 +220,9 @@
         <h2 class="basic-text">Новое в нашем блоге</h2>
         <a class="advertising-title" href="blog.html">10 способов сервировки фруктовых щербетов к столу</a>
       </article>
+      <div class="email">
       <section class="newsletter">
-        <h2 class="page-footer-title">Получайте лучшие предложения</h2>
+        <h2 class="visually-hidden">Получайте лучшие предложения</h2>
         <span class="basic-text">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</span>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
@@ -229,25 +230,28 @@
           <button class="button newsletter-button" type="submit">Отправить</button>
         </form>
       </section>
+      </div>
       <section class="delivery">
         <h2 class="delivery-title">Доставка любимого мороженого на дом</h2>
-        <p>Хочется полакомиться любимым десертом, но нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
-        <p>Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
+        <p class="basic-text">Хочется полакомиться любимым десертом, но нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
+       <div class="delivery-all-form">
+        <p class="basic-text">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
         <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="delivery-forms delivery-form-date">
             <label class="form-label" for="date">Дата</label>
             <input type="date" id="date" name="date" placeholder="01.04.2020">
           </p>
           <p class="delivery-forms delivery-form-phone">
-            <label for="tel">Телефон</label>
+            <label class="form-label" for="tel">Телефон</label>
             <input type="tel" id="tel" name="tel" placeholder="8 800 9990000">
           </p>
           <p class="delivery-forms delivery-form-address">
-            <label for="delivery-address">Адрес</label>
+            <label class="form-label" for="delivery-address">Адрес</label>
             <input type="text" id="delivery-name" name="delivery-name" placeholder="ул. Большая Конюшенная, 19/8">
           </p>
           <button class="button button-pink" type="submit">Отправить</button>
         </form>
+        </div>
       </section>
       <section class="contacts">
         <h2 class="visually-hidden"> Контакты</h2>

@@ -118,6 +118,9 @@ text-align: left;
 
 .basic-text {
   color: #565C66;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
 }
 
 .product-card-price {
@@ -165,4 +168,52 @@ text-align: left;
   background-image: url("../images/thermometer.svg");
   background-size: 24px 24px;
   background-repeat: no-repeat;
+}
+
+.advertising {
+  background-image: url("../images/blog.jpg");
+  background-size: 570px 224px;
+  background-repeat: no-repeat;
+}
+
+.advertising-title {
+  color: #2D3440;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.email {
+  background-image: url("../images/email.png");
+  background-size: 570px 224px;
+  background-repeat: no-repeat;
+}
+
+.newsletter {
+  background-color: #ffffff;
+}
+
+.delivery {
+  background-image: url("../images/delivery.jpg");
+  background-size: 1170px 534px;
+  background-repeat: no-repeat;
+}
+
+.delivery-title {
+  font-family: 'inter' sans-serif;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: left;
+}
+
+.delivery-all-form {
+  background-color: #FCFCFC;
+}
+
+.form-label {
+  color: #2D3440;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
 }
