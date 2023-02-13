@@ -217,3 +217,33 @@ text-align: left;
   line-height: 20px;
   font-weight: 700;
 }
+
+.contacts-ice-cream {
+  background-image: url("../images/contacts.jpg");
+  background-size: 1170px 534px;
+  background-repeat: no-repeat;
+}
+
+.contacts {
+  background-color: #FCFCFC;
+  text-align: left;
+}
+
+.contacts-address {
+  color: #2D3440;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.contacts-phone {
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.contacts-phone-time {
+  color: #565C66;
+  font-size: 14px;
+  line-height: 20px;
+}
