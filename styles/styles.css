@@ -247,3 +247,21 @@ text-align: left;
   font-size: 14px;
   line-height: 20px;
 }
+
+.navigation-list {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.navigation-link-heart {
+  background-image: url("../images/heart.svg");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  font-weight: 700;
+}
+
+.about-text {
+  color: #2D3440;
+  font-size: 12px;
+  line-height: 16px;
+}
