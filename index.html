@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -45,9 +46,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="search.html">
-              <span class="visually-hidden">
-                Поиск
-              </span>
+              <span class="visually-hidden">Поиск</span>
             </a>
           </li>
           <li class="navigation-item">
@@ -55,9 +54,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link navigation-basket" href="basket.html">
-              <span class="visually-hidden">
-                Корзина
-              </span>
+              <span class="visually-hidden">Корзина</span>
             </a>
           </li>
         </ul>
@@ -77,19 +74,19 @@
         <ul class="slider">
           <li class="slider-image-preview">
             <h3 class="main-gallery-title">Нежный пломбир с клубничным джемом</h3>
-            <p class="basic-text">Натуральное мороженое из свежих сливок и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+            <p class="main-text">Натуральное мороженое из свежих сливок и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
             <a class="button" href="order.html">Заказать</a>
             <img class="slider-image" src="images/main_ice_cream_1.png" width="300" height="562" alt="Нежный пломбир с клубничным джемом">
           </li>
           <li class="slider-image-preview">
             <h3 class="main-gallery-title">Сливочное мороженое со вкусом банана</h3>
-            <p class="basic-text">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.</p>
+            <p class="main-text">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.</p>
             <a class="button" href="order.html">Заказать</a>
             <img class="slider-image" src="images/main_ice_cream_2.png" width="300" height="562" alt="Сливочное мороженое со вкусом банана">
           </li>
           <li class="slider-image-preview">
             <h3 class="main-gallery-title">Карамельный пломбир с маршмеллоу</h3>
-            <p class="basic-text">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
+            <p class="main-text">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
             <a class="button" href="order.html">Заказать</a>
             <img class="slider-image" src="images/main_ice_cream_3.png" width="300" height="562" alt="Карамельный пломбир с маршмеллоу">
           </li>
@@ -135,14 +132,14 @@
       <section class="gifts">
         <h2 class="gifts-title">Заказывайте мороженое и получайте подарки!</h2>
         <ul class="gifts-list">
-          <li class="gifts-item">
+          <li class="gifts-item gifts-item-raspberry">
             <h3 class="gifts-item-title">Малинка даром!</h3>
-            <span class="basic-text">При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.</span>
+            <p>При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>
             <a class="button" href="#">Хочу подарок</a>
           </li>
-          <li class="gifts-item">
+          <li class="gifts-item gifts-item-marshmallow">
             <h3 class="gifts-item-title">Маршмеллоу даром!</h3>
-            <span class="basic-text">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</span>
+            <p>При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
             <a class="button" href="#">Хочу подарок</a>
           </li>
         </ul>
@@ -197,68 +194,76 @@
         </ul>
       </section>
       <section class="advantages">
-        <h2 class="advantages-title">Магазин Глейси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
-        <ul class="advantages-list">
-          <li class="advantages-item basic-text">
-            Всё наше мороженое изготавливается на собственном производстве с использованием современного оборудования и проверенных временем технологий.
-          </li>
-          <li class="advantages-item basic-text">
-            Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки произведены из натурального сырья.
-          </li>
-          <li class="advantages-item basic-text">
-            Закупка ингредиентов производится только у проверенных фермерских хозяйств, с которыми нас связывает долговременное сотрудничество.
-          </li>
-          <li class="advantages-item basic-text">
-            Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому растаять и позволяет сохранить превосходный вкус.
-          </li>
-        </ul>
+        <div class="advantages-container">
+          <h2 class="advantages-title">Магазин Глейси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
+          <ul class="advantages-list">
+            <li class="advantages-item advantages-item-ice-cream basic-text">
+              Всё наше мороженое изготавливается на собственном производстве с использованием современного оборудования и проверенных временем технологий.
+            </li>
+            <li class="advantages-item advantages-item-sheet basic-text">
+              Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки произведены из натурального сырья.
+            </li>
+            <li class="advantages-item advantages-item-cow basic-text">
+              Закупка ингредиентов производится только у проверенных фермерских хозяйств, с которыми нас связывает долговременное сотрудничество.
+            </li>
+            <li class="advantages-item advantages-item-thermometer basic-text">
+              Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому растаять и позволяет сохранить превосходный вкус.
+            </li>
+          </ul>
+        </div>
       </section>
       <article class="advertising">
         <h2 class="basic-text">Новое в нашем блоге</h2>
         <a class="advertising-title" href="blog.html">10 способов сервировки фруктовых щербетов к столу</a>
       </article>
-      <section class="newsletter">
-        <h2 class="page-footer-title">Получайте лучшие предложения</h2>
-        <span class="basic-text">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</span>
-        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email">Email</label>
-          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
-          <button class="button newsletter-button" type="submit">Отправить</button>
-        </form>
-      </section>
+      <div class="email">
+        <section class="newsletter">
+          <h2 class="visually-hidden">Получайте лучшие предложения</h2>
+          <p class="basic-text">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label for="newsletter-email">Email</label>
+            <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+            <button class="button newsletter-button" type="submit">Отправить</button>
+          </form>
+        </section>
+      </div>
       <section class="delivery">
         <h2 class="delivery-title">Доставка любимого мороженого на дом</h2>
-        <p>Хочется полакомиться любимым десертом, но нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
-        <p>Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
-        <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p class="delivery-forms delivery-form-date">
-            <label class="form-label" for="date">Дата</label>
-            <input type="date" id="date" name="date" placeholder="01.04.2020">
-          </p>
-          <p class="delivery-forms delivery-form-phone">
-            <label for="tel">Телефон</label>
-            <input type="tel" id="tel" name="tel" placeholder="8 800 9990000">
-          </p>
-          <p class="delivery-forms delivery-form-address">
-            <label for="delivery-address">Адрес</label>
-            <input type="text" id="delivery-name" name="delivery-name" placeholder="ул. Большая Конюшенная, 19/8">
-          </p>
-          <button class="button button-pink" type="submit">Отправить</button>
-        </form>
+        <p class="basic-text">Хочется полакомиться любимым десертом, но нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
+        <div class="delivery-all-form">
+          <p class="basic-text">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
+          <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
+            <p class="delivery-forms delivery-form-date">
+              <label class="form-label" for="date">Дата</label>
+              <input type="date" id="date" name="date" placeholder="01.04.2020">
+            </p>
+            <p class="delivery-forms delivery-form-phone">
+              <label class="form-label" for="tel">Телефон</label>
+              <input type="tel" id="tel" name="tel" placeholder="8 800 9990000">
+            </p>
+            <p class="delivery-forms delivery-form-address">
+              <label class="form-label" for="delivery-address">Адрес</label>
+              <input type="text" id="delivery-name" name="delivery-name" placeholder="ул. Большая Конюшенная, 19/8">
+            </p>
+            <button class="button button-pink" type="submit">Отправить</button>
+          </form>
+        </div>
       </section>
-      <section class="contacts">
-        <h2 class="visually-hidden"> Контакты</h2>
-        <h3 class="contacts-subtitle">Адрес главного офиса и офлайн-магазина:</h3>
-        <address class="contacts-address">
-          <p class="contacts-address-text">наб. реки Карповки, 5 лит П, Санкт-Петербург</p>
-        </address>
-        <h3 class="contacts-subtitle">Для заказов по телефону:</h3>
-        <address class="contacts-address">
-          <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        </address>
-        <p class="contacts-phone-time">(с 10 до 20 ежедневно)</p>
-        <a class="button button-feedback" href="#">Форма обратной связи</a>
-      </section>
+      <div class="contacts-ice-cream">
+        <section class="contacts">
+          <h2 class="visually-hidden"> Контакты</h2>
+          <h3 class="basic-text">Адрес главного офиса и офлайн-магазина:</h3>
+          <address class="contacts-address">
+            <p class="contacts-address-text">наб. реки Карповки, 5 лит П, Санкт-Петербург</p>
+          </address>
+          <h3 class="basic-text">Для заказов по телефону:</h3>
+          <address class="contacts-address">
+            <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          </address>
+          <p class="contacts-phone-time">(с 10 до 20 ежедневно)</p>
+          <a class="button button-feedback" href="#">Форма обратной связи</a>
+        </section>
+      </div>
     </main>
       <footer class="page-footer">
         <section class="social">
