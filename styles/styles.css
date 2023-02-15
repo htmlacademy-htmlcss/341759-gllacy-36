@@ -35,7 +35,6 @@ body {
 }
 
 .navigation-link {
-  font-family: 'inter', sans-serif;
   line-height: 20px;
   color: #2D3440;
   text-align: center;
@@ -55,13 +54,11 @@ body {
 }
 
 .main-gallery-title {
-  font-family: 'inter', sans-serif;
   font-size: 36px;
   line-height: 46px;
 }
 
 .main-text {
-  font-family: 'inter', sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
@@ -71,7 +68,6 @@ body {
 }
 
 .gifts-title {
-  font-family: 'inter', sans-serif;
   font-size: 32px;
   line-height: 46px;
   text-align: center;
@@ -95,7 +91,6 @@ body {
 }
 
 .gifts-item-title {
-  font-family: 'inter', sans-serif;
   font-size: 24px;
   line-height: 30px;
   text-align: center;
@@ -105,7 +100,6 @@ body {
 }
 
 .popular-product-title {
-  font-family: 'inter', sans-serif;
   font-size: 32px;
   line-height: 46px;
 }
@@ -116,7 +110,6 @@ body {
 
 .product-card-title {
   color: #2D3440;
-  font-family: 'inter', sans-serif;
   font-size: 20px;
   line-height: 24px;
 }
@@ -129,7 +122,6 @@ body {
 }
 
 .product-card-price {
-  font-family: 'inter', sans-serif;
   font-size: 20px;
   line-height: 24px;
   color: #2D3440;
@@ -145,7 +137,6 @@ body {
 }
 
 .advantages-title {
-  font-family: 'inter', sans-serif;
   font-size: 32px;
   line-height: 46px;
   text-align: center;
@@ -206,7 +197,6 @@ body {
 }
 
 .delivery-title {
-  font-family: 'inter', sans-serif;
   font-size: 32px;
   line-height: 46px;
   text-align: left;
@@ -289,28 +279,24 @@ body {
 }
 
 .inner-header-title {
-  font-family: 'inter', sans-serif;
   font-size: 32px;
   line-height: 46px;
   font-weight: 900;
 }
 
 .catalog-filter-title {
-  font-family: 'inter', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
 
 .select-control {
   color: #2D3440;
-  font-family: 'inter', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
 
 .catalog-filter-list {
   color: #2D3440;
-  font-family: 'inter', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -321,8 +307,12 @@ body {
 
 .pagination-item {
   color: #2D3440;
-  font-family: 'inter', sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-align: right;
+}
+
+.pagination-link {
+  color: #2D3440;
+  text-decoration: none;
 }
