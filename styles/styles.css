@@ -74,7 +74,6 @@ body {
 }
 
 .gifts-item {
-  text-align: left;
   background-color: #FF7799;
 }
 
@@ -95,6 +94,7 @@ body {
   line-height: 30px;
   text-align: center;
 }
+
 .popular-product {
   text-align: center;
 }
@@ -127,7 +127,7 @@ body {
   color: #2D3440;
 }
 
-.advantages-container{
+.advantages-container {
   background-image: url("../images/benefits.jpg");
   background-size: 1170px 480px;
   background-repeat: no-repeat;
@@ -142,28 +142,25 @@ body {
   text-align: center;
 }
 
-.advantages-item-ice-cream {
-  background-image: url("../images/ice_cream.svg");
+.advantages-item {
   background-size: 24px 24px;
   background-repeat: no-repeat;
+}
+
+.advantages-item-ice-cream {
+  background-image: url("../images/ice_cream.svg");
 }
 
 .advantages-item-sheet {
   background-image: url("../images/sheet.svg");
-  background-size: 24px 24px;
-  background-repeat: no-repeat;
 }
 
 .advantages-item-cow {
   background-image: url("../images/cow.svg");
-  background-size: 24px 24px;
-  background-repeat: no-repeat;
 }
 
 .advantages-item-thermometer {
   background-image: url("../images/thermometer.svg");
-  background-size: 24px 24px;
-  background-repeat: no-repeat;
 }
 
 .advertising {
