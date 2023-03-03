@@ -80,6 +80,11 @@ body {
   flex-grow: 1;
 }
 
+.page-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
 .main-index {
   color: #2D3440;
 }
@@ -102,6 +107,13 @@ body {
   color: #2D3440;
 }
 
+.gifts-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
 .gifts-title {
   font-size: 32px;
   line-height: 46px;
@@ -109,6 +121,7 @@ body {
 }
 
 .gifts-item {
+  width: 570px;
   background-color: #FF7799;
 }
 
