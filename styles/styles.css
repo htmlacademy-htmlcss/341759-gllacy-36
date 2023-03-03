@@ -43,6 +43,28 @@ body {
   color: #2D3440;
 }
 
+.navigation {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-logo {
+  width: 137px;
+  margin-right: 16px;
+}
+
+.navigation-user {
+  max-width: 463px;
+  margin-left: auto;
+}
+
 .navigation-link {
   line-height: 20px;
   color: #2D3440;
