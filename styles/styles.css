@@ -50,9 +50,10 @@ body {
 }
 
 .navigation-list {
-  width: 700px;
   margin: 0;
   padding: 0;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .navigation-logo {
@@ -310,9 +311,30 @@ body {
   line-height: 20px;
 }
 
-.navigation-list {
-  font-size: 14px;
-  line-height: 20px;
+.page-footer {
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.social {
+  width: 104px;
+  margin-right: 259px;
+}
+
+/* .footer-navigation {
+  width: 356px;
+  margin-right: 259px;
+} */
+
+.htmlacademy {
+  margin-left: auto;
+  width: 195px;
 }
 
 .navigation-link-heart {
