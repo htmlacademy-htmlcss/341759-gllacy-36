@@ -327,11 +327,6 @@ body {
   margin-right: 259px;
 }
 
-/* .footer-navigation {
-  width: 356px;
-  margin-right: 259px;
-} */
-
 .htmlacademy {
   margin-left: auto;
   width: 195px;
@@ -351,6 +346,11 @@ body {
 }
 
 /* Стили каталога */
+
+ .filter-catalog-container {
+  display: flex;
+
+ }
 
 .inner-header {
   font-size: 14px;
@@ -392,6 +392,10 @@ body {
 
 .catalog-product {
   text-align: center;
+}
+
+.pagination-container {
+
 }
 
 .pagination-item {
