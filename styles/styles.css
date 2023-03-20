@@ -373,6 +373,11 @@ body {
   font-weight: 900;
 }
 
+.catalog-filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .catalog-filter-title {
   font-size: 14px;
   line-height: 20px;
@@ -393,10 +398,6 @@ body {
 .catalog-product {
   text-align: center;
   width: 1170px;
-}
-
-.pagination-container {
-
 }
 
 .pagination-item {
